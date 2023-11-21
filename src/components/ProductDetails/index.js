@@ -70,6 +70,8 @@ export default function ProductDetail({ navigation, route }) {
                     </Text>
                    
                 </View>
+                
+
                 <View>
                     <View
                         style={{flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 20}}
