@@ -19,6 +19,10 @@ export default function App() {
           initialRouteName="ProductDetail"
          >
           <Stack.Screen name="ProductDetail" component={ProductDetail} /> 
+          
+
+
+
           <Stack.Screen name="ChooseColorProduct" component={ChooseColorProduct}/>
         </Stack.Navigator>
       </NavigationContainer>

@@ -8,6 +8,9 @@ export default function ChooseColorProduct({route, navigation}) {
         path: productColorSelected?.path
     })
    
+    
+
+
     const handleSelectColor = (color) => {
         setProductDetailSelected({
             ...productDetailSelected,
