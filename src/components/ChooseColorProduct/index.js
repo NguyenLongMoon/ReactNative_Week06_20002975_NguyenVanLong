@@ -36,7 +36,9 @@ export default function ChooseColorProduct({route, navigation}) {
                 }
             </View>
             <View style={{flex: 2, paddingHorizontal: 15}}>
-                <Text style={{fontSize: 15, marginTop: 12, width: "80%", fontWeight: "500"}}>
+                
+
+            <Text style={{fontSize: 15, marginTop: 12, width: "80%", fontWeight: "500"}}>
                     Điện Thoại Vsmart Joy 3
                     Hàng chính hãng
                 </Text>
