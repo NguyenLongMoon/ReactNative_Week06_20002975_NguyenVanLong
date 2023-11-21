@@ -101,7 +101,10 @@ export default function ProductDetail({ navigation, route }) {
                 , position: "relative", paddingHorizontal: 20}}
                     onPress={()=> navigation.navigate("ChooseColorProduct", {productDetail, productColorSelected, setProductColorSelected})}
                 >
-                    <Text
+                   
+
+
+                   <Text
                         style={{textAlign: "center", paddingVertical :8, fontSize: 15, fontWeight: "500"}}
                     >{productDetail?.colors?.length} MÀU - CHỌN MÀU</Text>
                     <FontAwesome name="angle-right" size={24} color="black" 
